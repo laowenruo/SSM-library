@@ -19,7 +19,7 @@
         </plugin>
     </plugins>
     <mappers>
-        <!-- <mapper class="com.dao.BookMapper"/> 也可以-->
+        <!-- <mapper class="com.dao.BookMapper"/> 也一样-->
         <mapper resource="com/dao/BookMapper.xml"/>
     </mappers>
 </configuration>
