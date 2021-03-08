@@ -37,6 +37,6 @@
    </select>
 
     <select id="queryBookByName" resultType="Books">
-        select * from ssmbuild.books where bookName = #{bookName}
+        select * from ssmbuild.books where bookName = {bookName}
     </select>
 </mapper>

@@ -11,6 +11,13 @@
     <typeAliases>
         <package name="com.pojo"/>
     </typeAliases>
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+            <property name="param1" value="value1"/>
+        </plugin>
+    </plugins>
     <mappers>
         <!-- <mapper class="com.dao.BookMapper"/> 也可以-->
         <mapper resource="com/dao/BookMapper.xml"/>
